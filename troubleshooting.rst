@@ -8,7 +8,7 @@ Troubleshooting
 
 * **The web interface keeps rejecting my admin/user password.**
 
-    If the password is correct then this is most likely caused by the rootfs partition being full. This command can help track which folders are the biggest :command:`df -hx --max-depth=1 /`
+    If the password is correct then this is most likely caused by the rootfs partition being full. This command can help track which folders are the biggest :command:`du -hx --max-depth=1 /`
 
 * **I only see a few items in the web interface interface like the user section of Access Rights Management.**
 
